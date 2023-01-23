@@ -11,6 +11,7 @@ module.exports = {
         dark_5:"#CFCFCF",
         dark_6:"#E7E7E7",
         dark_7:"#F3F3F3",
+        dark_8:"#FFFFFF",
         brown:"#B68C5A",
       },
       fontFamily:{
