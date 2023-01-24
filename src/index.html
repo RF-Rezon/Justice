@@ -50,10 +50,83 @@
           </div>
           <div>
             <button
-              class="py-1 px-3 md:px-6 md:py-3 my-5 bg-brown font-poppins text-dark_8 text-lg font-medium md:font-semibold rounded-lg"
+              class="py-2 px-4 md:px-5 md:py-3 my-5 bg-brown font-poppins text-dark_8 text-lg font-medium md:font-medium rounded-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModalScrollable"
             >
               Free Consultation
             </button>
+
+            <!-- MODAL START -->
+
+            <div
+              class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+              id="exampleModalScrollable"
+              tabindex="-1"
+              aria-labelledby="exampleModalScrollableLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-scrollable relative w-auto pointer-events-none">
+                <div
+                  class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current"
+                >
+                  <div
+                    class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md"
+                  >
+                    <h5
+                      class="text-3xl font-medium leading-normal font-gramound text-gray-800"
+                      id="exampleModalScrollableLabel"
+                    >
+                      Law
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body relative p-4">
+                    <p class="font-poppins text-dark_2 text-base md:text-lg font-extralight">
+                      The insanity defense is among the most controversial legal constructs that has attracted the
+                      attention of scholars, practitioners and policy makers. Here, we conducted a systematic review of
+                      the literature spanning 2004 to 2019 that produced 58 studies of insanity defense research.
+                      Findings are organized according to: assessments and assessment-related issues, juror
+                      decision-making in defense trials, characteristics of insanity, release recommendations for
+                      insanity, revocation of conditional release status of insanity, and additional areas of insanity
+                      defense research. Implications of the research for the insanity defense and cognate legal issues
+                      are proffered. <br />
+                      Ever feel like the law is stacked against you? It probably is. Broken Law speaks truth to power in
+                      discussing how our laws and legal system serve the few at the expense of the many. This is where
+                      law meets real life. Hosted by the staff of the American Constitution Society, we reckon with the
+                      origins of our legal system, interview people on the frontlines of the progressive legal movement,
+                      and discuss necessary legal reforms to restore our democratic legitimacy and improve the lives of
+                      all people.
+                    </p>
+                    <br /><br /><br /><br /><br />
+                  </div>
+                  <div
+                    class="modal-footer flex flex-shrink-0 flex-wrap items-center justify-end p-4 border-t border-gray-200 rounded-b-md"
+                  >
+                    <button
+                      type="button"
+                      class="inline-block px-6 py-2.5 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button
+                      type="button"
+                      class="hidden inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out ml-1"
+                    >
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- MODAL END -->
           </div>
         </nav>
 
@@ -94,11 +167,9 @@
       <section>
         <div class="text-center p-10 md:my-16">
           <p class="font-gramound text-dark_2 text-4xl font-extrabold mb-4 mt-5 md:mt-0">The Legal Practice Area</p>
-          <p class="font-poppins text-dark_3 text-sm md:text-base font-normal">
-            There are many variations of passages of Lorem Ipsum available, but the majority have<br />
-            suffered alteration in some form, by injected humour.
-          </p>
+          <p class="font-poppins text-dark_3 text-sm md:text-base font-normal">Some laws basics we should know</p>
         </div>
+        <hr />
         <div>
           <div class="grid divide-x divide-y divide-gray-300 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div class="p-5 px-6 h-96 flex flex-col items-center justify-evenly">
