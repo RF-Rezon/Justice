@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "npx tailwindcss -i ./src/style.css -o ./main.css",
     "watch": "npx tailwindcss -i ./src/style.css -o ./main.css --watch"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "tw-elements": "^1.0.0-alpha13"
   }
 }
